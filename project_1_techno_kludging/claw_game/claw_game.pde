@@ -19,7 +19,7 @@ void setup() {
   size(640, 360);
   noStroke();
   
-  // println(Serial.list());
+  println(Serial.list());
   //String portName = Serial.list()[6]; //change the 0 to a 1 or 2 etc. to match your port
   //myPort = new Serial(this, portName, 9600);
 
